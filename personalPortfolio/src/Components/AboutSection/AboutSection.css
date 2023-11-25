@@ -1,0 +1,53 @@
+.about-section {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 38rem;
+  margin: 20px 0;
+  padding: 30px 74px;
+  background-color: rgb(30, 1, 56);
+}
+
+.text-container {
+margin-left: 250px;
+  max-width: 600px;
+}
+
+.photo-container {
+  max-width: 300px;
+position: absolute;
+margin-top: 180px;
+
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-section h2 {
+  color: plum;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.about-section p,
+.about-section ul {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.about-section li {
+  font-weight: normal;
+}
+
+.about-section ul {
+  color: rgb(215, 8, 112);
+  padding: 0;
+}
+
+.about-section ul li {
+  padding-left: 10px;
+color: white;
+}
