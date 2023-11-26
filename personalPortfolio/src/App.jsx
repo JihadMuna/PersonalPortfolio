@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    <div id='home'>
  <Header />
  <HeroSection />
  <AboutSection />
@@ -21,6 +22,7 @@ function App() {
  </CardsContainer>
  <ContactForm />
  <Footer />
+ </div>
     </>
   )
 }

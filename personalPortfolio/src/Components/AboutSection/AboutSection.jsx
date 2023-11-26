@@ -4,7 +4,7 @@ import MyPic from '../../assets/MyPic.jpg';
 
 export default function AboutSection() {
   return (
-    <section className='about-section'>
+    <section id='about' className='about-section'>
       <h2>About Me :</h2>
       <div className="photo-container">
         <img src={MyPic} alt="My Photo" />

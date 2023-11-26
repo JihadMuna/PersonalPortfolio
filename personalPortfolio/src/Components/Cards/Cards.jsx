@@ -3,7 +3,7 @@ import './Cards.css'
 
 export default function Cards({title, description, link}) {
   return (
-    <div className='card'>
+    <div id='projects' className='card'>
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={link}>
