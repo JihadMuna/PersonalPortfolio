@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa';
         export default function ContactMe() {
 
           return (      
-            <div id='#contact-me' className='contact-me'>  
+            <div id='contact-me' className='contact-me'>  
           <div className='social-icons'>
             <div className='social-icon'>
               <a href='https://www.facebook.com/jojo.muna.92/'>
