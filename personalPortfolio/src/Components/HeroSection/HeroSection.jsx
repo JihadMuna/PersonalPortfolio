@@ -1,12 +1,12 @@
-import React from 'react'
-import './HeroSection.css'
+import React from 'react';
+import './HeroSection.css';
+import backgroundImage from './background.jpg'; // Provide the correct relative path
 
 export default function HeroSection() {
   return (
-    <section className='hero-section'>
-      <h1>Welcome To My Personal Site
-      </h1>
-      <p>Discover my projects and skills</p>
+    <section  id= 'home' className='hero-section' style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my projects and skills</p>
     </section>
-  )
+  );
 }

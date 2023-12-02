@@ -1,0 +1,83 @@
+.contact-me{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 350px;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; 
+  color: inherit;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.social-icon a {
+  color: darkblue;
+  font-size: 40px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.social-icon:hover a {
+  color: white;
+  background-color: rgb(92, 92, 249);
+}
+
+.social-icon p {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  text-align: center;
+  bottom: 13.5rem;
+  z-index: 0;
+  font-size: 20px;
+  color:white;
+  background-color:  darkblue;
+  border: 1px solid transparent;
+  padding-top: 50px;
+box-shadow: rgba(240, 246, 239, 0.8);
+}
+
+.social-icon:hover p {
+  color: pink;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide (phones) */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide (tablets) */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (desktops) */
+}

@@ -3,7 +3,7 @@ import './CardsContainer.css'
 
 function CardsContainer({children}) {
   return (
-    <div className='cards-container'>
+    <div id= 'projects' className='cards-container'>
         {children}
     </div>
   )

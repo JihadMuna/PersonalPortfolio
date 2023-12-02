@@ -1,12 +1,14 @@
 #root {
-  width:1490px;
+  position: relative;
+  max-width:100%;
   margin: 0;
-  padding: 10px;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
 }
 
 .logo {
   height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -38,4 +40,29 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide (phones) */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide (tablets) */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (desktops) */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
 }

@@ -1,11 +1,13 @@
 .about-section {
   position: relative;
   display: flex;
-  width: 90%;
-  height: 38rem;
-  margin: 20px 0;
-  padding: 30px 74px;
-  background-color: rgb(30, 1, 56);
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  background-color: black;
 }
 
 .text-container {
@@ -50,4 +52,17 @@ margin-top: 180px;
 .about-section ul li {
   padding-left: 10px;
 color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide (phones) */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide (tablets) */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (desktops) */
 }
