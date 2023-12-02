@@ -6,6 +6,7 @@ import CardsContainer from './Components/Cards/CardsContainer'
 import AboutSection from './Components/AboutSection/AboutSection';
 import Footer from './Components/Footer/Footer';
 import ContactMe from './Components/ContactMe/ContactMe';
+import ContactForm from './Components/ContactForm/ContactForm';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
 <Cards title="Minecraft 2D Game" description=" Minecraft Game: A captivating 2D adventure where players explore, build, and survive in a blocky pixelated world. Unleash your creativity, face challenges, and embark on endless possibilities in this sandbox game." link="https://minecraft-game-jihad.netlify.app/" projectId={2} />
 <Cards title="Perfume Store" description="A modern e-commerce platform showcasing a variety of premium perfumes. Explore and discover your signature scent through a seamless and visually appealing shopping experience." link="https://perfuromastore.netlify.app" projectId={3} />
  </CardsContainer>
+ <ContactForm />
  <ContactMe />
  <Footer />
  </div>

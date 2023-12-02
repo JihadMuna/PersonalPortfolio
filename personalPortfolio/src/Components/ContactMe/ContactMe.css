@@ -1,9 +1,9 @@
-.contact-me{
+.contact-me {
   position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   background-color: black;
   color: white;
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none; 
+  text-decoration: none;
   color: inherit;
 }
 
@@ -56,11 +56,11 @@
   bottom: 13.5rem;
   z-index: 0;
   font-size: 20px;
-  color:white;
-  background-color:  darkblue;
+  color: white;
+  background-color: darkblue;
   border: 1px solid transparent;
   padding-top: 50px;
-box-shadow: rgba(240, 246, 239, 0.8);
+  box-shadow: rgba(240, 246, 239, 0.8);
 }
 
 .social-icon:hover p {
@@ -70,14 +70,32 @@ box-shadow: rgba(240, 246, 239, 0.8);
 }
 
 
-@media only screen and (max-width: 600px) {
-  /* Styles for screens up to 600px wide (phones) */
-}
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Styles for screens between 601px and 1024px wide (tablets) */
+  .social-icons {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .social-icon a {
+    width: 75px;
+    height: 75px;
+  }
+
+  .social-icon p {
+    display: none;
+     }
 }
 
-@media only screen and (min-width: 1025px) {
-  /* Styles for screens wider than 1024px (desktops) */
+@media only screen and (max-width: 600px) {
+  .social-icons {
+    gap: 40px;
+  }
+  .social-icon a {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .social-icon p {
+ display: none;
+  }
 }

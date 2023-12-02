@@ -6,3 +6,31 @@
     gap: 20px;
     background-color: black;
 }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .cards-container {
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 6rem;
+    }
+    .card {
+        width: 70%;
+      }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .cards-container {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6rem;
+      }
+      .card {
+          width: 50%;
+        }
+  }

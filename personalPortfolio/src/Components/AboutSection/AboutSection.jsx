@@ -5,22 +5,20 @@ import MyPic from '../../assets/MyPic.jpg';
 export default function AboutSection() {
   return (
     <section id='about' className='about-section'>
+      <section>
       <h2>About Me :</h2>
-      <div className="photo-container">
+      <section className="photo-container">
         <img src={MyPic} alt="My Photo" />
-      </div>
+      </section>
+      </section>
       <div className='text-container'>
-      <p>I am an avid learner and enthusiast of programming,<br />
-       driven by an unwavering passion for crafting solutions through code. <br />
-       With a perpetual thirst for knowledge, I constantly seek opportunities  <br />
-       to broaden my skill set and embrace challenges that foster personal and professional growth. <br />
-       As I navigate the dynamic world of technology, I am fueled by the belief that each line of code <br />
-        is an opportunity to create something impactful and innovative.
-<br /> Beyond the digital realm, I find joy in the artistry of makeup. <br />
- During my leisure time, I immerse myself in learning and applying makeup techniques, <br />
-  transforming it into a creative outlet. <br />
-  Sharing this passion, I often experiment with makeup on my sisters and friends, <br />
-   turning moments of leisure into expressions of beauty and creativity.</p>
+      <p>I love learning and exploring the world of programming. <br />
+       I'm passionate about using code to solve problems and create cool things. <br />
+       I'm always eager to learn new things and take on challenges that help me grow both personally and professionally. <br />
+In the ever-changing tech world, I believe that each line of code is a chance to make something impactful and innovative. <br />
+ Outside of the digital space, I also enjoy doing makeup. <br />
+  It's a creative outlet for me, and in my free time, I love learning and trying out different makeup techniques. <br />
+   I often have fun experimenting with makeup on my sisters and friends, turning our leisure moments into beautiful and creative expressions.</p>
 <ul>My Skills:
     <li>Full Stack Development: 
 "HTML, CSS, JavaScript, React".</li>

@@ -2,10 +2,10 @@ import React from 'react';
 import './ContactMe.css';
 import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa';
 
-        export default function ContactForm() {
+        export default function ContactMe() {
 
           return (      
-            <div id='contact' className='contact-me'>  
+            <div className='contact-me'>  
           <div className='social-icons'>
             <div className='social-icon'>
               <a href='https://www.facebook.com/jojo.muna.92/'>
