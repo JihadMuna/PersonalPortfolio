@@ -25,6 +25,7 @@ export default function Cards({ title, description, link, projectId }) {
   }
 
   return (
+<<<<<<< HEAD
     <div
       className='card'
       style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -35,6 +36,14 @@ export default function Cards({ title, description, link, projectId }) {
         <p>{description}</p>
         <a href={link}>Go To Website</a>
       </div>
+=======
+    <div id='projects' className='card'>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <a href={link}>
+      Go To Website
+      </a>
+>>>>>>> 5783d5b5fb6b72528cd916228cc7bfe4b86a489f
     </div>
   );
 }
