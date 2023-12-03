@@ -57,14 +57,14 @@
   z-index: 0;
   font-size: 20px;
   color: white;
-  background-color: darkblue;
+  background-color:deeppink;
   border: 1px solid transparent;
   padding-top: 50px;
   box-shadow: rgba(240, 246, 239, 0.8);
 }
 
 .social-icon:hover p {
-  color: pink;
+  color: darkblue;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
 }
