@@ -52,3 +52,15 @@
   .contact-form-section button:hover {
     background-color: pink;
   }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .contact-form-section {
+        width: 80%;
+    }
+}
+  
+  @media only screen and (max-width: 600px) {
+    .contact-form-section {
+        width:70%
+  }
+}
